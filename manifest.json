@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Tags Remover",
+  "version": "1.0",
+  "description": "Removes the question tags of a particular question on codeforces",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "web_accessible_resources": [
+    {
+      "matches": ["https://codeforces.com/*"],
+      "resources": []
+    }
+  ]
+}
